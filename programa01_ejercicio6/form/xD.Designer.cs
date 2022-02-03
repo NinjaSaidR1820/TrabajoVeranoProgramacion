@@ -1,7 +1,7 @@
 ﻿
-namespace TrabajoCursoProgramacion
+namespace programa01_ejercicio6
 {
-    partial class Form1
+    partial class xD
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -34,22 +34,22 @@ namespace TrabajoCursoProgramacion
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(119, 111);
+            this.button1.Location = new System.Drawing.Point(146, 124);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(153, 49);
+            this.button1.Size = new System.Drawing.Size(86, 35);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Mostrar";
+            this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // xD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(397, 251);
+            this.ClientSize = new System.Drawing.Size(436, 288);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Sueldo Impuesto Programa1_ejercicio5";
+            this.Name = "xD";
+            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }

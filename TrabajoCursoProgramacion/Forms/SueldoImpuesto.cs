@@ -34,7 +34,7 @@ namespace TrabajoCursoProgramacion
 
             CEmpleado Juan = new CEmpleado();
 
-            Juan.setSueldo(10000.0);
+            Juan.setSueldo(Convert.ToDouble(txtSue.Text));
 
             sueldo = Juan.getSueldo();
 
@@ -43,9 +43,13 @@ namespace TrabajoCursoProgramacion
 
             impuesto = Juan.getImpuesto();
 
-            MessageBox.Show("Impuesto: " + impuesto.ToString()+
-                "\r\n Sueldo: "+sueldo.ToString());
-            
+
+            listBox1.Items.Add( "\n Sueldo: " + sueldo.ToString() + "\n Impuesto: " + impuesto.ToString());
+
+
+
+
+           
 
         }
 

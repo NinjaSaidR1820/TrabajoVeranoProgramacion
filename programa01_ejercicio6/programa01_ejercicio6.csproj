@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D7E11CE1-AF33-4238-9434-11B788D355C7}</ProjectGuid>
+    <ProjectGuid>{BFCDB409-88DD-455B-A3CB-9B4CA66EF11D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TrabajoCursoProgramacion</RootNamespace>
-    <AssemblyName>TrabajoCursoProgramacion</AssemblyName>
+    <RootNamespace>programa01_ejercicio6</RootNamespace>
+    <AssemblyName>programa01_ejercicio6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\CEmpleado.cs" />
-    <Compile Include="Forms\SueldoImpuesto.cs">
+    <Compile Include="CEmpleado2.cs" />
+    <Compile Include="form\xD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SueldoImpuesto.Designer.cs">
-      <DependentUpon>SueldoImpuesto.cs</DependentUpon>
+    <Compile Include="form\xD.Designer.cs">
+      <DependentUpon>xD.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\SueldoImpuesto.resx">
-      <DependentUpon>SueldoImpuesto.cs</DependentUpon>
+    <EmbeddedResource Include="form\xD.resx">
+      <DependentUpon>xD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
